@@ -4,29 +4,29 @@ export class Octocat extends React.Component {
   render() {
     return (
       <article>
-        <a href="https://octodex.github.com//bewitchedtocat/">
+        <a href={this.props.catLink}>
           <img
             className="image"
-            src="https://octodex.github.com//images/bewitchedtocat.jpg"
+            src={this.props.catImage}
             width="400"
             height="400"
-            alt="Bewitchedtocat"
+            alt={this.props.name}
           />
         </a>
         <ul>
           <li>
-            #125:
-            <a href="https://octodex.github.com//bewitchedtocat/">
-              <strong>Bewitchedtocat</strong>
+            #{this.props.number}:
+            <a href={this.props.catLink}>
+              <strong>{this.props.name}</strong>
             </a>
           </li>
           <li>
-            <a href="https://github.com/heyhayhay">
+            <a href={this.props.authorLink}>
               <img
-                src="https://github.com/heyhayhay.png"
+                src={this.props.authorImage}
                 width="24px"
                 height="24px"
-                alt="heyhayhay"
+                alt={this.props.authorName}
               />
             </a>
           </li>
