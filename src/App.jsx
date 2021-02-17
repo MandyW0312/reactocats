@@ -93,7 +93,7 @@ export class App extends Component {
             <Octocat
               catLink="https://octodex.github.com//labtocat/"
               catImage="https://octodex.github.com//images/labtocat.png"
-              number="113"
+              number="105"
               name="Labtocat"
               authorLink="https://github.com/johncreek"
               authorImage="https://github.com/johncreek.png"
