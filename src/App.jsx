@@ -6,6 +6,7 @@ export class App extends Component {
   render() {
     const octocatsFromData = octocats.map(octocat => (
       <Octocat
+        key={octocat.id}
         catLink={octocat.catLink}
         catImage={octocat.catImage}
         number={octocat.number}
