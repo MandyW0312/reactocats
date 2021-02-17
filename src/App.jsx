@@ -17,10 +17,10 @@ export class App extends Component {
                   />
                 </a>
               </li>
-              <li class="octodex">
+              <li className="octodex">
                 <a href="#">Octodex</a>
               </li>
-              <li class="active">
+              <li className="active">
                 <a href="#">Home</a>
               </li>
               <li>
@@ -35,7 +35,7 @@ export class App extends Component {
                   Follow us on Twitter
                 </a>
               </li>
-              <li class="github">
+              <li className="github">
                 <a href="https://github.com/">Back to GitHub.com</a>
               </li>
             </ul>
@@ -47,7 +47,7 @@ export class App extends Component {
             <article>
               <a href="https://octodex.github.com//vinyltocat/">
                 <img
-                  class="image"
+                  className="image"
                   src="https://octodex.github.com//images/vinyltocat.png"
                   width="400"
                   height="400"
@@ -84,7 +84,7 @@ export class App extends Component {
             <article>
               <a href="https://octodex.github.com//bewitchedtocat/">
                 <img
-                  class="image"
+                  className="image"
                   src="https://octodex.github.com//images/bewitchedtocat.jpg"
                   width="400"
                   height="400"
@@ -113,7 +113,7 @@ export class App extends Component {
             <article>
               <a href="https://octodex.github.com//mountietocat/">
                 <img
-                  class="image"
+                  className="image"
                   src="https://octodex.github.com//images/mountietocat.png"
                   width="400"
                   height="400"
@@ -141,7 +141,7 @@ export class App extends Component {
             <article>
               <a href="https://octodex.github.com//luchadortocat/">
                 <img
-                  class="image"
+                  className="image"
                   src="https://octodex.github.com//images/luchadortocat.png"
                   width="400"
                   height="400"
@@ -177,7 +177,7 @@ export class App extends Component {
             <article>
               <a href="https://octodex.github.com//saritocat/">
                 <img
-                  class="image"
+                  className="image"
                   src="https://octodex.github.com//images/saritocat.png"
                   width="400"
                   height="400"
@@ -206,7 +206,7 @@ export class App extends Component {
             <article>
               <a href="https://octodex.github.com//labtocat/">
                 <img
-                  class="image"
+                  className="image"
                   src="https://octodex.github.com//images/labtocat.png"
                   width="400"
                   height="400"
@@ -235,7 +235,7 @@ export class App extends Component {
             <article>
               <a href="https://octodex.github.com//femalecodertocat/">
                 <img
-                  class="image"
+                  className="image"
                   src="https://octodex.github.com//images/femalecodertocat.png"
                   width="400"
                   height="400"
@@ -263,7 +263,7 @@ export class App extends Component {
             <article>
               <a href="https://octodex.github.com//dodgetocat-v2/">
                 <img
-                  class="image"
+                  className="image"
                   src="https://octodex.github.com//images/dodgetocat_v2.png"
                   width="400"
                   height="400"
@@ -291,7 +291,7 @@ export class App extends Component {
             <article>
               <a href="https://octodex.github.com//stormtroopocat/">
                 <img
-                  class="image"
+                  className="image"
                   src="https://octodex.github.com//images/stormtroopocat.png"
                   width="400"
                   height="400"
@@ -319,7 +319,7 @@ export class App extends Component {
             <article>
               <a href="https://octodex.github.com//octofez/">
                 <img
-                  class="image"
+                  className="image"
                   src="https://octodex.github.com//images/octofez.png"
                   width="400"
                   height="400"
@@ -347,7 +347,7 @@ export class App extends Component {
             <article>
               <a href="https://octodex.github.com//octdrey-catburn/">
                 <img
-                  class="image"
+                  className="image"
                   src="https://octodex.github.com//images/octdrey-catburn.jpg"
                   width="400"
                   height="400"
@@ -375,7 +375,7 @@ export class App extends Component {
             <article>
               <a href="https://octodex.github.com//total-eclipse-of-the-octocat/">
                 <img
-                  class="image"
+                  className="image"
                   src="https://octodex.github.com//images/total-eclipse-of-the-octocat.jpg"
                   width="400"
                   height="400"
